@@ -2,6 +2,6 @@ const getName = function(node) {
   return node.name
 }
 
-const headNode = function(lnkedList, coll) {
+const headNode = function(linkedList, coll) {
   return coll[linkedList]
 }
