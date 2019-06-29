@@ -6,6 +6,6 @@ const headNode = function(linkedList, coll) {
   return coll[linkedList]
 }
 
-const next = function(node) {
-  return node.next
+const next = function(head, coll) {
+  return coll[head.next]
 }
