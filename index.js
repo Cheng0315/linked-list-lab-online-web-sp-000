@@ -46,3 +46,7 @@ const indexAt = function(node,coll,ll) {
 
   return idx;
 }
+
+const insertNodeAt = function() {
+  
+}
