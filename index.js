@@ -20,3 +20,17 @@ const nodeAt = function(idx, ll, coll) {
 
   return node
 }
+
+const addressAt = function(idx, ll, coll) {
+  if (idx === 0) {
+    return ll
+  } 
+  
+  let address;
+  
+  for (let i = 0; i < idx; i++) {
+    address = coll[ll.next]
+  }
+
+  return address;
+}
