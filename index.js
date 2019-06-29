@@ -3,5 +3,5 @@ const getName = function(node) {
 }
 
 const headNode = function(node) {
-  
+
 }
