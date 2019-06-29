@@ -39,7 +39,7 @@ const indexAt = function(node,coll,ll) {
   let idx = 0;
   let curNode = coll[ll];
 
-  while curNode.name != node.name {
+  while (curNode.name !== node.name) {
     idx += 1;
   }
 
