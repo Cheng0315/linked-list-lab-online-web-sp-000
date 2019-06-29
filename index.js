@@ -24,10 +24,10 @@ const nodeAt = function(idx, ll, coll) {
 const addressAt = function(idx, ll, coll) {
   if (idx === 0) {
     return ll
-  } 
-  
+  }
+
   let address;
-  
+
   for (let i = 0; i < idx; i++) {
     address = coll[ll.next]
   }
