@@ -12,7 +12,7 @@ const next = function(head, coll) {
 
 const nodeAt = function(idx, ll, coll) {
   for (let i = 0; i < idx; i++) {
-    ll = next(ll, coll)
+    ll = next(coll[ll], coll)
   }
 
   return ll
