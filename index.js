@@ -36,9 +36,12 @@ const addressAt = function(idx, ll, coll) {
 }
 
 const indexAt = function(node,coll,ll) {
-  if (node.name === 'susie') {
-    return 0
-  } else {
-    return 1
+  let idx = 0;
+  let curNode = coll[ll];
+
+  while curNode.name != node.name {
+    idx += 1;
   }
+
+  return idx;
 }
