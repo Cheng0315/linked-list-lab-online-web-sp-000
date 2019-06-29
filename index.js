@@ -41,6 +41,7 @@ const indexAt = function(node,coll,ll) {
 
   while (curNode.name !== node.name) {
     idx += 1;
+    curNode = next(curNode, coll)
   }
 
   return idx;
