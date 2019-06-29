@@ -9,3 +9,7 @@ const headNode = function(linkedList, coll) {
 const next = function(head, coll) {
   return coll[head.next]
 }
+
+const nodeAt = function(idx, ll, coll) {
+  return coll[ll]
+}
