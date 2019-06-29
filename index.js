@@ -29,7 +29,7 @@ const addressAt = function(idx, ll, coll) {
   let address;
 
   for (let i = 0; i < idx; i++) {
-    address = coll[ll.next]
+    address = coll[ll].next
   }
 
   return address;
