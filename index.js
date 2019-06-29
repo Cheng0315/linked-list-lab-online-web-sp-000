@@ -34,3 +34,11 @@ const addressAt = function(idx, ll, coll) {
 
   return address;
 }
+
+const indexAt = function(node,coll,ll) {
+  if (node.name === 'susie') {
+    return 0
+  } else {
+    return 1
+  }
+}
