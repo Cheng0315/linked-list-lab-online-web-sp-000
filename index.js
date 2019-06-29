@@ -15,5 +15,5 @@ const nodeAt = function(idx, ll, coll) {
     ll = next(ll, coll)
   }
 
-  return coll[ll]
+  return ll
 }
