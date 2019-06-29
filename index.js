@@ -12,12 +12,11 @@ const next = function(head, coll) {
 
 const nodeAt = function(idx, ll, coll) {
 
-  let name = ll;
+  let node = coll[ll];
 
   for (let i = 0; i < idx; i++) {
-    let node = coll[name]
-    name = next(node, coll)
+    node = next(node, coll)
   }
 
-  return coll[name]
+  return node
 }
