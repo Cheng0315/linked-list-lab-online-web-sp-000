@@ -5,3 +5,7 @@ const getName = function(node) {
 const headNode = function(linkedList, coll) {
   return coll[linkedList]
 }
+
+const next = function(node) {
+  return node.next
+}
